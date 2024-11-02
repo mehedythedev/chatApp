@@ -23,7 +23,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://chat-app-backend-eight-eta.vercel.app/api/v1/user/register`,
+        `http://localhost:8080/api/v1/user/register`,
         user,
         {
           headers: {
