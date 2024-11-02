@@ -18,12 +18,12 @@ export const BASE_URL="http://chat-app-backend-eight-eta.vercel.app"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
+  <React.StrictMode>
     <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
         <App />
         <Toaster/>
       </PersistGate>
     </Provider>
-  </StrictMode>
+  </React.StrictMode>
 );
