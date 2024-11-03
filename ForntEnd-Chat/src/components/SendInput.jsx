@@ -16,7 +16,7 @@ const SendInput = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `https://chatapp-wq9g.onrender.com/api/v1/message/send/${selectedUser?._id}`,
+        `https://chat-app-backend-eight-eta.vercel.app/api/v1/message/send/${selectedUser?._id}`,
         { message },
         {
           headers: {

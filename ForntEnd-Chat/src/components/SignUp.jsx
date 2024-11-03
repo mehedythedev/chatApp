@@ -23,7 +23,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `https://chatapp-wq9g.onrender.com/api/v1/user/register`,
+        `https://chat-app-backend-eight-eta.vercel.app/api/v1/user/register`,
         user,
         {
           headers: {

@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     if (authUser) {
-      const socketio = io(`https://chatapp-wq9g.onrender.com`, {
+      const socketio = io(`https://chat-app-backend-eight-eta.vercel.app`, {
         query: {
           userId: authUser._id,
         },

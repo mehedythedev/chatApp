@@ -22,7 +22,7 @@ const Sidebar = () => {
 
   const logoutHandler = async () => {
     try {
-      const res = await axios.get(`https://chatapp-wq9g.onrender.com/api/v1/user/logout`);
+      const res = await axios.get(`https://chat-app-backend-eight-eta.vercel.app/api/v1/user/logout`);
       navigate("/login");
       toast.success(res.data.message);
       dispatch(setAuthUser(null));

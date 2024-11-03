@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `https://chatapp-wq9g.onrender.com/api/v1/user/login`,
+        `https://chat-app-backend-eight-eta.vercel.app/api/v1/user/login`,
         user,
         {
           headers: {
