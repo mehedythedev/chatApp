@@ -23,7 +23,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://chatapp-wq9g.onrender.com/api/v1/user/register`,
+        `https://chatapp-wq9g.onrender.com/api/v1/user/register`,
         user,
         {
           headers: {

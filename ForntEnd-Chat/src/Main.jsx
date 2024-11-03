@@ -14,7 +14,7 @@ import { StrictMode } from 'react';
 
 let persistor = persistStore(store);
 
-export const BASE_URL="http://chatapp-wq9g.onrender.com"
+export const BASE_URL="https://chatapp-wq9g.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
