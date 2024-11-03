@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     if (authUser) {
-      const socketio = io(`http://localhost:8080`, {
+      const socketio = io(`http://chatapp-wq9g.onrender.com`, {
         query: {
           userId: authUser._id,
         },

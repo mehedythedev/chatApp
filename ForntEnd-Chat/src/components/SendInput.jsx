@@ -16,7 +16,7 @@ const SendInput = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://localhost:8080/api/v1/message/send/${selectedUser?._id}`,
+        `http://chatapp-wq9g.onrender.com/api/v1/message/send/${selectedUser?._id}`,
         { message },
         {
           headers: {
