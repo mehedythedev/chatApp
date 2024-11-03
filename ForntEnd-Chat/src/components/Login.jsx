@@ -43,7 +43,7 @@ const Login = () => {
   return (
     <div className="max-w-md w-full mx-auto p-4 sm:p-6 md:p-8">
     <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100">
-      <h1 className="text-2xl sm:text-3xl font-bold text-indigo-500 text-center mb-4">Login</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-indigo-100 text-center mb-4">Login to Fast Chat</h1>
       <form onSubmit={onSubmitHandler} action="">
         <div>
           <label className="label p-1 sm:p-2">
@@ -75,7 +75,7 @@ const Login = () => {
         <div>
           <button
             type="submit"
-            className="btn btn-block bg-indigo-500 hover:bg-indigo-600 text-white btn-sm sm:btn-md mt-2 border border-indigo-700"
+            className="btn btn-block bg-sky-600 hover:bg-cyan-600 text-white btn-sm sm:btn-md mt-2 border border-indigo-700"
           >
             Login
           </button>

@@ -49,9 +49,10 @@ const Signup = () => {
     });
   };
   return (
-    <div className="max-w-lg w-full mx-auto p-4 sm:p-6 md:p-8">
+    <div className="max-w-xl w-full mx-auto p-2 sm:p-6 md:p-4" >
+      <h1 className="text-4xl py-5 text-pretty text-indigo-300 font-bold ">Welcome to Mehedi's ChatFast</h1>
   <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100">
-    <h1 className="text-2xl text-indigo-500 sm:text-3xl font-bold text-center mb-4">Create An Account</h1>
+    <h1 className="text-2xl  text-indigo-100 sm:text-3xl font-bold text-center mb-4">Create An Account</h1>
     <form onSubmit={onSubmitHandler} action="">
       <div>
         <label className="label p-1 sm:p-2">
@@ -127,7 +128,7 @@ const Signup = () => {
       <div>
         <button
           type="submit"
-          className="btn btn-block bg-indigo-500 hover:bg-indigo-600 text-white btn-sm sm:btn-md mt-2 border border-indigo-700"
+          className="btn btn-block bg-sky-600 hover:bg-cyan-600 text-white btn-sm sm:btn-md mt-2 border border-indigo-700"
         >
           Signup
         </button>
