@@ -18,7 +18,8 @@ app.use(express.json());
 app.use(cookieParser());
 const corsOption={
     origin:'https://chat-app-user.vercel.app',
-    credentials:true
+    credentials:true,
+    allowedHeaders: ['Content-Type', 'Authorization']
 };
 app.use(cors(corsOption)); 
 
