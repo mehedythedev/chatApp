@@ -1,13 +1,13 @@
 import {Server} from "socket.io";
-import https from "https";
+ import http from "http";
 import express from "express";
 
 const app = express();
 
-const server = https.createServer(app);
+const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-     origin:['https://chat-app-user.vercel.app'],
+     origin:['http://localhost:5173'],
         methods:['GET', 'POST'],
     },
 });

@@ -14,7 +14,7 @@ import { StrictMode } from 'react';
 
 let persistor = persistStore(store);
 
-export const BASE_URL="https://chat-app-backend-eight-eta.vercel.app/"
+export const BASE_URL="http://localhost:8080"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

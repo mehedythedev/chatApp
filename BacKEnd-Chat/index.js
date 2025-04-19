@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://chat-app-user.vercel.app',
+    origin:'http://localhost:5173',
     credentials:true,
     allowedHeaders: ['Content-Type', 'Authorization']
 };

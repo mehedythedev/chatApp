@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `https://chat-app-backend-eight-eta.vercel.app/api/v1/user/login`,
+        `http://localhost:8080/api/v1/user/login`,
         user,
         {
           headers: {
